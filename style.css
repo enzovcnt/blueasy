@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+}
+.one{
+    display: flex;
+    background-image: url("CloneCetteMaquette/images/HERO.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex-direction: column;
+}
+.navbar{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 100, 0.5);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+mark{
+    background-color: rgba(0,0,100, 0.5);
+}
+
+.two{
+    height: 70vh;
+    display: flex;
+    background-image: url("CloneCetteMaquette/images/fondservices.png");
+    justify-content: space-between;
+}
+
