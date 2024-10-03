@@ -7,6 +7,7 @@ html, body {
     display: flex;
     height: auto;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .one{
     display: flex;
@@ -42,4 +43,34 @@ mark{
     background-image: url("CloneCetteMaquette/images/fondservices.png");
     justify-content: space-between;
 }
+p{
+    display: flex;
+    color: white;
+    height: 10%;
+}
+.a{
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+    padding : 20px;
+    font-size: 12px;
+    color: white;
+}
+.three{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.barre{
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left : 50px;
+    padding-right: 50px;
+}
+.photo{
+    height: 80%;
+}
+
 
