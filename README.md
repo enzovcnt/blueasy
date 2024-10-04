@@ -1,1 +1,1 @@
-Rechercher plus de documentation 
+Difficulté dans l'alignement et espacement des éléments 
