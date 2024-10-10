@@ -1,1 +1,1 @@
-Difficulté dans l'alignement et espacement des éléments 
+détails à changer
