@@ -45,6 +45,8 @@ mark{
     display: flex;
     background-image: url("../cloneCetteMaquette/images/fondservices.png");
     flex-direction: column;
+    color: white;
+
 }
 
 .service{
@@ -58,10 +60,8 @@ mark{
 .a{
     display: flex;
     flex: 1;
-    flex-direction: column;
-    font-size: px;
-    color: white;
-    justify-content: center;
+    flex-flow: column wrap;
+    justify-content: space-around;
     height: 90%;
 }
 
@@ -69,14 +69,15 @@ mark{
     height: 80vh;
     display: flex;
     flex-direction: column;
+    padding-left: 180px;
+    padding-right: 180px;
+    text-transform: uppercase;
 }
 .barre{
     display: flex;
     height: 20%;
     align-items: center;
     justify-content: space-between;
-    padding-left : 50px;
-    padding-right: 50px;
     font-size: 40px;
 }
 .photo {
@@ -84,7 +85,11 @@ mark{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 80vw;
+    align-self: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .four{
@@ -97,15 +102,24 @@ mark{
 
 .four{
     display: flex;
-    padding: ;
+    justify-content: center;
+    align-items: center;
 }
 
 .tchanson{
     display: flex;
     flex-flow: column wrap;
     font-size: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 40%;
+    height: 80%;
+    font-weight: bold;
+    color: white;
+}
 
+.jds{
+    text-transform: uppercase;
+    font-size: 30px;
 }
 .youtube{
     display: flex;
@@ -115,11 +129,203 @@ mark{
 .ycontain{
     display: flex;
     align-items: center;
+    height: 80%;
 }
 
 .visit{
+    border-style: solid;
+    border-color: darkslategrey;
+    border-width: 5px;
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    padding: 15px;
+    color: darkslategrey;
+}
+.marque{
+    text-decoration-line: underline;
+}
+
+.five{
+    display: flex;
+    height: 40vh;
+    background-image: url("../cloneCetteMaquette/images/fondservices.png");
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 180px;
+    padding-right: 180px;
+    color: white;
+}
+.twitter{
+    display: flex;
+    height: 30%;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 40px;
+}
+.logoT{
+    height: 4vh;
+    width: 3vw;
+}
+.twittertext{
+    display: flex;
+    height: 70%;
+    font-size: 30px;
+    flex-flow: column wrap;
+    line-height: 1.8;
+}
+.six{
+    background-color: steelblue;
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    color: white;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.john{
+    display: flex;
+    height: 30%;
+    align-items: flex-end;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.textjohn{
+    display: flex;
+    height: 70%;
+    width: auto;
+}
+.j1{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.j2{
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    justify-content: space-around;
+}
+.b{
+    height: 3vh;
+    width: 3vw;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+}
+
+.seven{
+    display: flex;
+    background-color: white;
+    height: 40vh;
+    flex-direction: column;
+    color: black;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 30px;
+}
+.testimonials{
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+.textimonial{
+    display: flex;
+    height: 80%;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.eight{
+    display: flex;
+    height: 80vh;
+    background-color: steelblue;
+    flex-flow: column wrap;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.contact{
+    display: flex;
+    height: 20%;
+    font-size: 50px;
+    align-items: center;
+}
+.forms{
+    display: flex;
+    height: 80%;
+    flex-flow: column wrap;
+    font-size: 20px;
+
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fullname{
     display: flex;
     flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.textform{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 15px;
+    text-transform: lowercase;
+    padding-right: 10px;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+}
+#fname{
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: steelblue;
 }
 
 
+.c{
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+.nine{
+    display: flex;
+    background-color: darkslategray;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 180px;
+    padding-right: 180px;
+    font-size: 20px;
+    color: gray;
+}
+.d{
+    justify-content: flex-start;
+}
