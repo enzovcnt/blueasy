@@ -78,6 +78,22 @@ html, body {
     flex-direction: row;
     height: 80%;
 }
+.COFFEE{
+    width: 50px;
+    height: 60px;
+}
+.SERIOUS{
+    width: 60px;
+    height: 60px;
+}
+.INSRANT{
+    width: 60px;
+    height: 60px;
+}
+.FRAME{
+    width: 60px;
+    height: 60px;
+}
 
 .a{
     display: flex;
@@ -135,6 +151,10 @@ html, body {
     align-self: center;
     padding-top: 90px;
     padding-bottom: 90px;
+}
+.P{
+    width: 300px;
+    height: 200px;
 }
 
 .four{
