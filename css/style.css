@@ -11,11 +11,13 @@ html, body {
 }
 .one{
     display: flex;
-    background-image: url("../cloneCetteMaquette/images/HERO.jpg");
+    background-image: linear-gradient(black, white),url("../cloneCetteMaquette/images/HERO.jpg");
+    background-blend-mode: saturation;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     flex-direction: column;
+    color: white;
 }
 .navbar{
     height: 10%;
@@ -27,6 +29,21 @@ html, body {
     padding-right: 50px;
     font-size: 30px;
 }
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 32vw;
+}
+.HOME{
+    display: flex;
+    border-color: deepskyblue;
+    border-style: solid;
+    padding: 5px;
+}
+.SFPC{
+    display: flex;
+    align-items: center;
+}
 
 .text{
     height: 90%;
@@ -36,7 +53,7 @@ html, body {
     flex-direction: column;
     font-size: 40px;
 }
-mark{
+.titleback{
     background-color: rgba(0,0,100, 0.5);
 }
 
@@ -46,23 +63,28 @@ mark{
     background-image: url("../cloneCetteMaquette/images/fondservices.png");
     flex-direction: column;
     color: white;
-
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
 .service{
     display: flex;
-    height: 10%;
-    font-size: 30px;
+    height: 20%;
+    font-size: 50px;
     align-items: center;
 }
-
+.boitecol{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
 
 .a{
     display: flex;
     flex: 1;
     flex-flow: column wrap;
     justify-content: space-around;
-    height: 90%;
+    font-size: 30px;
 }
 
 .three{
@@ -78,7 +100,30 @@ mark{
     height: 20%;
     align-items: center;
     justify-content: space-between;
+    font-size: 20px;
+}
+.portfolio{
+    display: flex;
+    width: 50%;
     font-size: 40px;
+}
+.hotbar{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+.all{
+    display: flex;
+    border-color: deepskyblue;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.reste{
+    display: flex;
+    word-spacing: 50px;
 }
 .photo {
     height: 80%;
@@ -200,13 +245,19 @@ mark{
     display: flex;
     flex-flow: column wrap;
     width: 50%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
 }
 .j2{
     display: flex;
     flex-flow: row wrap;
     width: 50%;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 50px;
+    font-size: 20px;
 }
 .b{
     height: 3vh;
@@ -214,6 +265,11 @@ mark{
     border-style: solid;
     border-color: white;
     padding: 10px;
+}
+.logocarre{
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
 }
 
 .seven{
@@ -242,6 +298,11 @@ mark{
     justify-content: center;
     font-size: 30px;
     line-height: 1.5;
+}
+
+.WW{
+    color: blue;
+    padding-top: 20px;
 }
 
 .eight{
@@ -278,24 +339,23 @@ mark{
     flex-direction: column;
     width: 50%;
     justify-content: space-around;
-    padding-top: 10px;
+    padding-right: 50px;
 }
 .textform{
     display: flex;
     flex-direction: column;
     width: 50%;
-    justify-content: space-around;
-    font-size: 15px;
+    justify-content: space-between;
+    font-size: 20px;
     text-transform: lowercase;
-    padding-right: 10px;
+    padding-left: 50px;
 }
 .message {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-
 }
-#fname{
+.ligne{
     border: 2px solid white;
     border-radius: 4px;
     background-color: steelblue;
